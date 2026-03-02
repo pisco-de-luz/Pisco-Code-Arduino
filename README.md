@@ -73,6 +73,10 @@ Pisco Code extends the classic blink-count method with a **framing signal** — 
 
 For full documentation, architecture details, and cross-platform support (AVR, STM32, native), see the **[main repository](https://github.com/pisco-de-luz/Pisco-Code)**.
 
+## Changelog
+
+See the [Changelog](https://github.com/pisco-de-luz/Pisco-Code/blob/main/CHANGELOG.md) in the main repository.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
