@@ -51,7 +51,7 @@ void setup()
     pinMode(LED_BUILTIN, OUTPUT);
     emitter.showCode(
         pisco_code::SignalCode{103},
-        pisco_code::NumberBase::DEC,
+        pisco_code::Radix::DEC,
         pisco_code::NumDigits{0});
 }
 

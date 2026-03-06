@@ -27,7 +27,7 @@ void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
 
   // Display code 103 in decimal, auto-detect number of digits
-  emitter.showCode(pisco_code::SignalCode{103}, pisco_code::NumberBase::DEC,
+  emitter.showCode(pisco_code::SignalCode{103}, pisco_code::Radix::DEC,
                    pisco_code::NumDigits{0});
 }
 
